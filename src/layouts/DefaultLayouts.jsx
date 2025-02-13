@@ -1,8 +1,16 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
+import { Outlet } from 'react-router-dom'
 
 const DefaultLayouts = () => {
   return (
-    <div>DefaultLayouts</div>
+    <>
+      <Navbar />
+
+      <main>
+        <Outlet />
+      </main>
+    </>
   )
 }
 

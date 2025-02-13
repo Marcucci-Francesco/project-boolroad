@@ -9,9 +9,9 @@ const App = () => {
     <GlobalProvider>
       <BrowserRouter>
         <Routes>
-          <Route element={DefaultLayouts}>
-            <Route path="/" element={TravelsPage} />
-            <Route path="/travel/:id" element={ParticipantsPage} />
+          <Route element={<DefaultLayouts />}>
+            <Route path="/" element={<TravelsPage />} />
+            <Route path="/travel/:id" element={<ParticipantsPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
