@@ -1,8 +1,18 @@
-import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import DefaultLayouts from "./layouts/DefaultLayouts"
+import TravelsPage from "./pages/TravelsPage"
+import ParticipantsPage from "./pages/ParticipantsPage"
 
 const App = () => {
   return (
-    <div>App</div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={DefaultLayouts}>
+          <Route path="/" element={TravelsPage} />
+          <Route path="/travel/:id" element={ParticipantsPage} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
