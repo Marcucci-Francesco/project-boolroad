@@ -1,10 +1,10 @@
 import travelsData from "../data/travelData.js";
 import Accordion from 'react-bootstrap/Accordion';
 
-const AccordionParticipants = ({ travelsData }) => {
+const AccordionParticipants = ({ participants }) => {
   return (
     <Accordion defaultActiveKey="0">
-    {travels.participants.map((participant, index) => 
+    {participants.map((participant, index) => 
       <Accordion.Item eventKey={index}>
         <Accordion.Header>{participant.nome} {participant.cognome}</Accordion.Header>
         <Accordion.Body>     
