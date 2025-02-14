@@ -37,7 +37,7 @@ const ParticipantsPage = () => {
 
       </div>
       <div className='container text-center'>
-        <Link to={'https://it.pornhub.com/'} className="btn btn-warning mt-5">Torna alla home</Link>
+        <Link to={'/'} className="btn btn-warning mt-5">Torna alla home</Link>
       </div>
     </>
   )
