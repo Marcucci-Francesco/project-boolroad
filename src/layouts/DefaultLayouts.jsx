@@ -5,7 +5,9 @@ import { Outlet } from 'react-router-dom'
 const DefaultLayouts = () => {
   return (
     <>
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
 
       <main>
         <Outlet />
