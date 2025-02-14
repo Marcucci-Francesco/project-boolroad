@@ -50,7 +50,7 @@ const ParticipantsPage = () => {
       <div className="participants-bg">
         <img className='img-fluid' src={travel.image} alt={travel.destination} />
       </div>
-      <div className="container py-3 mt-5 glass rounded-3">
+      <div className="container py-3 mt-5 glass rounded-3 max-width-md">
         <h1 className="text-center">{travel.destination}</h1>
         <form className="d-flex mb-3">
           <input

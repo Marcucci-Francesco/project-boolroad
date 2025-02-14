@@ -126,8 +126,12 @@ body {
     z-index: -10;
 }
 
-.emergency-contact{
+.participant-info{
     list-style: none;
+}
+
+.max-width-md{
+    max-width: 768px;
 }
 
 .glass {

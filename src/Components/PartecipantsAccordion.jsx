@@ -8,21 +8,26 @@ const AccordionParticipants = ({ participants }) => {
         <Accordion.Item eventKey={index} key={index}>
           <Accordion.Header>{participant.nome} {participant.cognome}</Accordion.Header>
           <Accordion.Body>
-            <div className="text-center">
-              <p>CF: {participant.codiceFiscale}</p>
+            <div className="d-flex align-content-center justify-content-between">
 
-              <p>Telefono: {participant.numeroDiTelefono}</p>
+              <div className="text-start">
+                <ul className="participant-info">
+                  <h3>INFO</h3>
+                  <li>CF: <strong>{participant.codiceFiscale}</strong></li>
 
-              <p>E-Mail:{participant.email}</p>
+                  <li>Telefono: <strong>{participant.numeroDiTelefono}</strong></li>
+
+                  <li>E-Mail: <strong>{participant.email}</strong></li>
+                </ul>
+              </div>
+
+              <ul className="text-start participant-info"><h3 className="text-center text-danger">Contatto d'Emergenza</h3>
+                <li>Nome: <strong>{participant.contattoDiEmergenza.nome} {participant.contattoDiEmergenza.cognome}</strong></li>                
+                <li>Numero: <strong>{participant.contattoDiEmergenza.numeroDiTelefono}</strong></li>
+                <li>E-mail: <strong>{participant.contattoDiEmergenza.mail}</strong></li>
+
+              </ul>
             </div>
-
-            <ul className="text-center emergency-contact"><h3 className="text-center text-danger">Contatto d'Emergenza</h3>
-              <li>{participant.contattoDiEmergenza.nome}</li>
-              <li>{participant.contattoDiEmergenza.cognome}</li>
-              <li>{participant.contattoDiEmergenza.numeroDiTelefono}</li>
-              <li>{participant.contattoDiEmergenza.mail}</li>
-
-            </ul>
 
 
           </Accordion.Body>
