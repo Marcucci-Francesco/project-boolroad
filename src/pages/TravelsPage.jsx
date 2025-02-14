@@ -47,7 +47,6 @@ const TravelsPage = () => {
           placeholder="Filtra i viaggi"
           aria-label="Search"
           onChange={handleChange} />
-        <button className="btn btn-outline-primary" type="submit">Cerca</button>
       </form>
 
       <Swiper
