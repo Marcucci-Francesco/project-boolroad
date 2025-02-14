@@ -1,5 +1,11 @@
 const TravelCard = (props) => {
 
+    const getDate = (data) => {
+        const dataObj = new Date(data)
+        return `${dataObj.getDate()}/${dataObj.getMonth()}/${dataObj.getFullYear()}`
+
+    }
+
     const { destination, startDate, endDate, tourLeader } = props.item
     console.log(destination)
 
@@ -12,8 +18,8 @@ const TravelCard = (props) => {
                 </div>
                 <div className="card-body">
                     <blockquote className="blockquote mb-0 fs-6">
-                        <p><strong>Data di partenza: </strong>{startDate}</p>
-                        <p><strong>Data di ritorno: </strong>{endDate}</p>
+                        <p><strong>Data di partenza: </strong>{getDate(startDate)}</p>
+                        <p><strong>Data di ritorno: </strong>{getDate(endDate)}</p>
                         <footer className="blockquote-footer">Tour Leader <cite title="Source Title">{tourLeader} </cite></footer>
                     </blockquote>
                 </div>
