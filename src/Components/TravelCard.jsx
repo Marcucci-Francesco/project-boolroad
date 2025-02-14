@@ -6,17 +6,16 @@ const TravelCard = (props) => {
 
     }
 
-    const { destination, startDate, endDate, tourLeader } = props.item
+    const { destination, startDate, endDate, tourLeader, image } = props.item
     console.log(destination)
 
     return (
-
         <>
             <div className="card h-100">
                 <div className="card-header fw-bold fs-3">
                     {destination}
                 </div>
-                <div className="card-body" style={{ backgroundImage: "URL(https://upload.wikimedia.org/wikipedia/commons/b/bc/Tokyo_Tower_at_night_2.JPG)" }}>
+                <div className="card-body" style={{ backgroundImage: `URL(${image})` }}>
                     <div className="layer"></div>
                     <blockquote className="blockquote fs-6 ">
                         <p><strong>Data di partenza: </strong>{getDate(startDate)}</p>
