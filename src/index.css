@@ -141,8 +141,9 @@ body {
 .participants-bg {
     position: absolute;
     width: 100%;
+    top: 0;
     z-index: -10;
-    height: calc(100vh - (50px + 48px));
+    height: 100vh;
 }
 
 .participants-bg img {
@@ -150,4 +151,17 @@ body {
     width: 100%;
     height: 100%;
     overflow: none;
+}
+
+.glass {
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    color: white;
+}
+
+@media screen and (min-width: 660px) {
+    .w-md-50 {
+        width: 50%;
+    }
 }

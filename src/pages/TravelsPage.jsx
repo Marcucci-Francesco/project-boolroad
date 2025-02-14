@@ -18,16 +18,16 @@ const TravelsPage = () => {
   return (
     <div className='container text-center py-4'>
       <h1>Lista dei viaggi</h1>
-      <form className="d-flex mb-3 w-25 mx-auto my-3">
+      <form className="d-flex mb-3 w-md-50 mx-auto my-3">
         <input className="form-control me-2" type="search" placeholder="Filtra i viaggi" aria-label="Search" />
-        <button className="btn btn-outline-success" type="submit">Cerca</button>
+        <button className="btn btn-outline-primary" type="submit">Cerca</button>
       </form>
 
       <Swiper
         effect={'cards'}
         grabCursor={true}
         modules={[EffectCards]}
-        className="mySwiper"
+        className="mySwiper mt-5"
       >
         {travelsData.map((item, index) =>
         (<SwiperSlide key={index}> <TravelCard item={item} onClick={() => navigate(`/travel/${item.ID}`)} /></SwiperSlide>
