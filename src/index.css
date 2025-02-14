@@ -90,3 +90,26 @@ body {
 .swiper-slide:nth-child(10n) {
     background-color: rgb(54, 94, 77);
 }
+
+.card-body {
+    position: relative;
+    background-size: contain;
+    background-blend-mode: multiply;
+    color: white;
+
+}
+
+.blockquote {
+    position: relative;
+    z-index: 1;
+}
+
+.layer {
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
