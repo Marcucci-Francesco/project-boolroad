@@ -13,7 +13,7 @@ const App = () => {
           <Route element={<DefaultLayouts />}>
             <Route path="/" element={<TravelsPage />} />
             <Route path="/travel/:id" element={<ParticipantsPage />} />
-            <Route path="/404" element={<NotFound />} />
+            <Route path="/*" element={<NotFound />} />
           </Route>
         </Routes>
       </BrowserRouter>
