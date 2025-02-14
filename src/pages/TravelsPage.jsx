@@ -15,7 +15,13 @@ import { EffectCards } from 'swiper/modules';
 const TravelsPage = () => {
   console.log(travelsData)
   return (
-    <>
+    <div className='container text-center'>
+      <h1>Lista dei viaggi</h1>
+      <form className="d-flex mb-3 w-25 mx-auto my-3">
+        <input className="form-control me-2" type="search" placeholder="Filtra i viaggi" aria-label="Search" />
+        <button className="btn btn-outline-success" type="submit">Cerca</button>
+      </form>
+
       <Swiper
         effect={'cards'}
         grabCursor={true}
@@ -28,7 +34,7 @@ const TravelsPage = () => {
 
 
       </Swiper>
-    </>
+    </div>
   );
 
 }
