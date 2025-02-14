@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import AccordionParticipants from '../Components/PartecipantsAccordion'
 import { useGlobalContext } from '../context/GlobalContext';
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const ParticipantsPage = () => {
   const { id } = useParams();
@@ -33,6 +34,10 @@ const ParticipantsPage = () => {
         <h2>Lista dei partecipanti</h2>
 
         {partecipants && <AccordionParticipants participants={partecipants} />}
+
+      </div>
+      <div className='container text-center'>
+        <Link to={'https://it.pornhub.com/'} className="btn btn-warning mt-5">Torna alla home</Link>
       </div>
     </>
   )

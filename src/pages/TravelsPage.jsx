@@ -61,7 +61,7 @@ const TravelsPage = () => {
         ))}
 
 
-      </Swiper>
+      </Swiper>      
     </div>
   );
 
