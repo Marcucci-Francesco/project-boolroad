@@ -13,7 +13,7 @@ const AccordionParticipants = ({ participants }) => {
 
             <p>Telefono: {participant.numeroDiTelefono}</p>
 
-            <p>E-Mail:{ }</p>
+            <p>E-Mail:{participant.mail}</p>
 
             <ul><h3>Contatto d'Emergenza</h3>
               <li>{participant.contattoDiEmergenza.nome}</li>
