@@ -4,14 +4,18 @@ const NotFound = () => {
 
 
   return (
-    <div className="container">
-      <div className="bg-danger">
-        <h1 className="text-center">ERRORE 404 - PAGE NOT FOUND</h1>
-        <p>Your request cannot be fulfilled as the page does not exist!</p>
-        <p>Please return to the Homepage.</p>
+
+    <div className="container d-flex flex-column justify-content-center align-items-center mt-5">
+      <div className="error-404-container text-center ">
+        <h1 className="error-title text-danger"><strong>404</strong></h1>
+        <p className="error-message"><strong>Oops!</strong></p>
+        <p>La pagina che stai cercando non esiste</p>
       </div>
-      <Link className="btn btn-primary" to={'/'}>Return to Travels Page</Link>
+      <Link className="btn btn-primary mt-1" to={'/'}>Return to Travels Page</Link>
     </div>
+
+
+
   )
 }
 
