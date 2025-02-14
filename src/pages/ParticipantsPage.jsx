@@ -23,7 +23,7 @@ const ParticipantsPage = () => {
       <div className="participants-bg">
         <img className='img-fluid' src={travel.image} alt={travel.destination} />
       </div>
-      <div className="container py-5 mt-5 glass">
+      <div className="container py-5 mt-5 glass rounded-3">
         <h1>{travel.destination}</h1>
         <form className="d-flex mb-3">
           <input className="form-control me-2" type="search" placeholder="Filtra i partecipanti" aria-label="Search" />
