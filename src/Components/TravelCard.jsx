@@ -7,11 +7,11 @@ const TravelCard = (props) => {
     }
 
     const { destination, startDate, endDate, tourLeader, image } = props.item
-    console.log(destination)
+    const { onClick } = props;
 
     return (
         <>
-            <div className="card h-100">
+            <div className="card h-100" onClick={onClick}>
                 <div className="card-header fw-bold fs-3">
                     {destination}
                 </div>

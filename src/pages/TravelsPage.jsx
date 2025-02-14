@@ -11,9 +11,10 @@ import 'swiper/css/effect-cards';
 
 // import required modules
 import { EffectCards } from 'swiper/modules';
+import { useNavigate } from 'react-router-dom';
 
 const TravelsPage = () => {
-  console.log(travelsData)
+  const navigate = useNavigate();
   return (
     <div className='container text-center'>
       <h1>Lista dei viaggi</h1>
@@ -29,7 +30,7 @@ const TravelsPage = () => {
         className="mySwiper"
       >
         {travelsData.map((item, index) =>
-        (<SwiperSlide> <TravelCard key={index} item={item} /></SwiperSlide>
+        (<SwiperSlide> <TravelCard key={index} item={item} onClick={() => navigate(`/travel/${item.ID}`)} /></SwiperSlide>
         ))}
 
 
