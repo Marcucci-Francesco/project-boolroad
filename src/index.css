@@ -44,7 +44,7 @@ body {
 }
 
 .swiper {
-    width: 240px;
+    width: 280px;
     height: 320px;
     box-shadow: #233566;
 }
@@ -60,7 +60,7 @@ body {
 }
 
 
-.swiper-slide:nth-child(1) .card-header {
+/* .swiper-slide:nth-child(1) .card-header {
     background-color: #903D35;
 }
 
@@ -94,7 +94,7 @@ body {
 
 .swiper-slide:nth-child(9) .card-header {
     background-color: rgb(218, 12, 218);
-}
+} */
 
 
 .card-body {
