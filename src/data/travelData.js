@@ -48,6 +48,7 @@ const travelsData = [
                 cognome: "Ricci",
                 codiceFiscale: "RCCLRN90D15H501W",
                 numeroDiTelefono: "3478901234",
+                email: "lorenzo.ricci@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Marta",
                     cognome: "Ricci",
@@ -60,6 +61,7 @@ const travelsData = [
                 cognome: "Rossi",
                 codiceFiscale: "RSSLNE88D22H501M",
                 numeroDiTelefono: "3456789999",
+                email: "elena.rossi@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Giovanni",
                     cognome: "Rossi",
@@ -82,6 +84,7 @@ const travelsData = [
                 cognome: "Romano",
                 codiceFiscale: "RMNMTT80L22H501X",
                 numeroDiTelefono: "3490123456",
+                email: "matteo.romano@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Silvia",
                     cognome: "Romano",
@@ -94,6 +97,7 @@ const travelsData = [
                 cognome: "Neri",
                 codiceFiscale: "NRSARA92C10H501P",
                 numeroDiTelefono: "3509876543",
+                email: "sara.neri@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Luca",
                     cognome: "Neri",
@@ -106,6 +110,7 @@ const travelsData = [
                 cognome: "Galli",
                 codiceFiscale: "GLLRCC81H15H501L",
                 numeroDiTelefono: "3511234567",
+                email: "riccardo.galli@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Elisa",
                     cognome: "Galli",
@@ -128,6 +133,7 @@ const travelsData = [
                 cognome: "De Luca",
                 codiceFiscale: "DLCCRR88G11H501W",
                 numeroDiTelefono: "3529876543",
+                email: "chiara.deluca@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Federico",
                     cognome: "De Luca",
@@ -140,6 +146,7 @@ const travelsData = [
                 cognome: "Marini",
                 codiceFiscale: "MRNLCA89M22H501T",
                 numeroDiTelefono: "3554321987",
+                email: "luca.marini@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Francesco",
                     cognome: "Marini",
@@ -152,6 +159,7 @@ const travelsData = [
                 cognome: "Pellegrini",
                 codiceFiscale: "PLGBTR87C30H501V",
                 numeroDiTelefono: "3567890123",
+                email: "beatrice.pellegrini@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Alessandro",
                     cognome: "Pellegrini",
@@ -164,6 +172,7 @@ const travelsData = [
                 cognome: "Colombo",
                 codiceFiscale: "CLMGRG91D25H501Q",
                 numeroDiTelefono: "3576543210",
+                email: "giorgio.colombo@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Simone",
                     cognome: "Colombo",
@@ -186,6 +195,7 @@ const travelsData = [
                 cognome: "Gatti",
                 codiceFiscale: "GTTFDC85A10H501X",
                 numeroDiTelefono: "3587654321",
+                email: "federico.gatti@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Giulia",
                     cognome: "Gatti",
@@ -198,6 +208,7 @@ const travelsData = [
                 cognome: "Sartori",
                 codiceFiscale: "SRTROB93M15H501L",
                 numeroDiTelefono: "3598765432",
+                email: "roberta.sartori@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Marco",
                     cognome: "Sartori",
@@ -210,6 +221,7 @@ const travelsData = [
                 cognome: "Rossi",
                 codiceFiscale: "RSSNCL92H30H501P",
                 numeroDiTelefono: "3601234567",
+                email: "nicola.rossi@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Francesca",
                     cognome: "Rossi",
@@ -222,6 +234,7 @@ const travelsData = [
                 cognome: "Fabbri",
                 codiceFiscale: "FBBMCH88D20H501M",
                 numeroDiTelefono: "3612345678",
+                email: "michele.fabbri@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Matteo",
                     cognome: "Fabbri",
