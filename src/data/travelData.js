@@ -12,6 +12,7 @@ const travelsData = [
                 cognome: "Bianchi",
                 codiceFiscale: "BNCGLL98A41H501K",
                 numeroDiTelefono: "3456789012",
+                email: "giulia.bianchi@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Luca",
                     cognome: "Bianchi",
@@ -24,6 +25,7 @@ const travelsData = [
                 cognome: "Verdi",
                 codiceFiscale: "VRDNDR85C11F205X",
                 numeroDiTelefono: "3467890123",
+                email: "andrea.verdi@gmail.com",
                 contattoDiEmergenza: {
                     nome: "Francesca",
                     cognome: "Verdi",
