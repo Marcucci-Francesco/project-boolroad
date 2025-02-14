@@ -133,9 +133,8 @@ body {
 }
 
 .boolroad-type-logo {
-    height: 100%;
-    line-height: 100%;
-    vertical-align: center;
+    margin-left: 1rem;
+    font-size: 1.4rem;
 }
 
 .participants-bg {
