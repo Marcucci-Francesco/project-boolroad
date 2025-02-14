@@ -5,6 +5,7 @@ const travelsData = [
         startDate: "2025-03-10T00:00:00.000Z",
         endDate: "2025-03-15T00:00:00.000Z",
         tourLeader: "Marco Rossi",
+        image: '/img/Roma.jpg',
         participants: [
             {
                 nome: "Giulia",
@@ -38,6 +39,7 @@ const travelsData = [
         startDate: "2025-04-05T00:00:00.000Z",
         endDate: "2025-04-12T00:00:00.000Z",
         tourLeader: "Anna Ferrari",
+        image: '/img/Parigi.jpg',
         participants: [
             {
                 nome: "Lorenzo",
@@ -71,6 +73,7 @@ const travelsData = [
         startDate: "2025-06-20T00:00:00.000Z",
         endDate: "2025-06-30T00:00:00.000Z",
         tourLeader: "Davide Bianchi",
+        image: '/img/Berlin.jpg',
         participants: [
             {
                 nome: "Matteo",
@@ -116,6 +119,7 @@ const travelsData = [
         startDate: "2025-09-10T00:00:00.000Z",
         endDate: "2025-09-20T00:00:00.000Z",
         tourLeader: "Alessandro Conti",
+        image: '/img/NewYork.jpg',
         participants: [
             {
                 nome: "Chiara",
@@ -173,6 +177,7 @@ const travelsData = [
         startDate: "2025-12-01T00:00:00.000Z",
         endDate: "2025-12-10T00:00:00.000Z",
         tourLeader: "Martina Ferrari",
+        image: '/img/Tokyo.jpg',
         participants: [
             {
                 nome: "Federico",
