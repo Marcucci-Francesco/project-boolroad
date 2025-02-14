@@ -39,6 +39,9 @@ const TravelsPage = () => {
   const navigate = useNavigate();
   return (
     <div className='container text-center py-4'>
+      <div className="travels-bg">
+        <img className="img-fluid" src="/img/bg-home.png" alt="bg-home" />
+      </div>
       <h1>Lista dei viaggi</h1>
       <form className="d-flex mb-3 w-md-50 mx-auto my-3">
         <input
@@ -60,7 +63,7 @@ const TravelsPage = () => {
         ))}
 
 
-      </Swiper>      
+      </Swiper>
     </div>
   );
 
