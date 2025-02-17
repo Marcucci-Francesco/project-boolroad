@@ -24,8 +24,9 @@ const TravelsPage = () => {
   const handleChange = (e) => {
     //e.target.value
 
+    const query = e.target.value.toLowerCase().trim();
     //inseriamo dentro una variabile l'oggetto che matcha con la ricerca
-    const matchFilter = travelsData.filter(travel => travel.destination.toLowerCase().includes(e.target.value.toLowerCase()));
+    const matchFilter = travelsData.filter(travel => travel.destination.toLowerCase().includes(query) || travel.tourLeader.toLowerCase().includes(query));
 
     //concateniamo dentro un'altra variabile matchFilter e othersFilter
     const filteredArray = [
@@ -47,7 +48,7 @@ const TravelsPage = () => {
         <input
           className="form-control me-2"
           type="search"
-          placeholder="Filtra i viaggi"
+          placeholder="Filtra i viaggi o tour leader"
           aria-label="Search"
           onChange={handleChange} />
       </form>
